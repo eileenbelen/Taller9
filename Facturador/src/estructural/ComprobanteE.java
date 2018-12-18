@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package facturador.estructural;
-
-import facturador.creacional.ComprobanteElectronico;
+package estructural;
 
 /**
  *
- * @author Palacios
+ * @author Patricio
  */
-public interface Esquema {
-    public void autorizar(ComprobanteElectronico comprobante);
+public interface ComprobanteE {
+    public void agregarLogo();
+    public void agregarLema();
 }

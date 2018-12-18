@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package facturador.creacional;
+package creacional;
 
+import estructural.ComprobanteE;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -12,13 +13,13 @@ import java.util.List;
  *
  * @author Palacios
  */
-public class GuiaRemision extends ComprobanteElectronico {
+public class GuiaRemision extends ComprobanteElectronico implements ComprobanteE{
     private String destino;
     private String placaVehiculo;
     private List<String> listaProductos;
 
-    public GuiaRemision(String destino, String placaVehiculo, List<String> listaProductos, String nombreCliente, long codigo, LocalDate fecha) {
-        super(nombreCliente, codigo, fecha);
+    public GuiaRemision(String destino, String placaVehiculo, List<String> listaProductos, Cliente cliente, long codigo, LocalDate fecha) {
+        super(cliente, codigo, fecha);
         this.destino = destino;
         this.placaVehiculo = placaVehiculo;
         this.listaProductos = listaProductos;
@@ -52,6 +53,21 @@ public class GuiaRemision extends ComprobanteElectronico {
     }
     
     
+    
+        @Override
+    public void agregarLogo() {
+        System.out.println("SIN LOGO");
+    }
+
+    @Override
+    public void agregarLema() {
+        System.out.println("SIN LEMA");
+    }
+
+    @Override
+    public String toString() {
+        return "GuiaRemision{" + "destino=" + destino + ", placaVehiculo=" + placaVehiculo + ", listaProductos=" + listaProductos + '}';
+    }
     
     
     

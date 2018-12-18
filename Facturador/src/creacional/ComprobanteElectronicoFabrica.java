@@ -3,14 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package facturador.creacional;
+package creacional;
+
+import estructural.Esquema;
 
 /**
  *
- * @author Palacios
+ * @author Patricio
  */
-public class ComprobantesFactory {
+public class ComprobanteElectronicoFabrica implements FabricaAbstracta {
     
+    @Override
     public ComprobanteElectronico getComprobante(String tipoComprobante){
       if(tipoComprobante == null){
          return null;
@@ -27,5 +30,12 @@ public class ComprobantesFactory {
       
       return null;
    }
+
+  
+
+    @Override
+    public Esquema getEsquema(String tipoEsquema) {
+        return null; 
+    }
     
 }

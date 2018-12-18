@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package facturador.creacional;
+package creacional;
 
+import estructural.ComprobanteE;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -12,13 +13,13 @@ import java.util.List;
  *
  * @author Palacios
  */
-public class Factura extends ComprobanteElectronico{
+public class Factura extends ComprobanteElectronico implements ComprobanteE{
     
     private List<String> productos;
     private double total;
 
-    public Factura(List<String> productos, double total, String nombreCliente, long codigo, LocalDate fecha) {
-        super(nombreCliente, codigo, fecha);
+    public Factura(List<String> productos, double total, Cliente Cliente, long codigo, LocalDate fecha) {
+        super(Cliente, codigo, fecha);
         this.productos = productos;
         this.total = total;
     }
@@ -40,6 +41,21 @@ public class Factura extends ComprobanteElectronico{
 
     public void setTotal(double total) {
         this.total = total;
+    }
+
+    @Override
+    public void agregarLogo() {
+        System.out.println("SIN LOGO");
+    }
+
+    @Override
+    public void agregarLema() {
+        System.out.println("SIN LEMA");
+    }
+
+    @Override
+    public String toString() {
+        return "Factura{" + "productos=" + productos + ", total=" + total + '}';
     }
 
     

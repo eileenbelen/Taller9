@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package facturador.estructural;
+package estructural;
 
-import facturador.creacional.ComprobanteElectronico;
+import creacional.ComprobanteElectronico;
 
 /**
  *
@@ -19,6 +19,7 @@ public class AutorizadorSRI {
     public AutorizadorSRI(Esquema esquema_de_autorizacion) {
         this.esquema_de_autorizacion = esquema_de_autorizacion;
     }
+    
     
     public void autorizar(ComprobanteElectronico comprobante){
         esquema_de_autorizacion.autorizar(comprobante);
