@@ -6,6 +6,8 @@
 
 package creacional;
 
+import comportamentales.EsquemaFabrica;
+
 
 public class FabricaProductor {
     

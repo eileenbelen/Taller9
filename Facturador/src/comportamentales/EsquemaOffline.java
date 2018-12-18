@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package creacional;
+package comportamentales;
 
-import estructural.Esquema;
+import creacional.ComprobanteElectronico;
 
 
 public class EsquemaOffline implements Esquema{

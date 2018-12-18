@@ -4,9 +4,10 @@
  * and open the template in the editor.
  */
 
-package creacional;
+package comportamentales;
 
-import estructural.Esquema;
+import creacional.ComprobanteElectronico;
+import creacional.FabricaAbstracta;
 
 
 public class EsquemaFabrica implements FabricaAbstracta{

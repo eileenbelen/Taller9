@@ -6,7 +6,7 @@
 
 package creacional;
 
-import estructural.Esquema;
+import comportamentales.Esquema;
 
 
 public class Cliente {

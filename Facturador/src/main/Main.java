@@ -10,7 +10,7 @@ import creacional.FabricaAbstracta;
 import creacional.FabricaProductor;
 import creacional.Factura;
 import estructural.ComprobanteE;
-import estructural.Esquema;
+import comportamentales.Esquema;
 import estructural.LemaDecorador;
 
 
