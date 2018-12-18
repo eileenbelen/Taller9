@@ -6,8 +6,6 @@
 
 package creacional;
 
-import comportamentales.EsquemaFabrica;
-
 
 public class FabricaProductor {
     
@@ -20,7 +18,7 @@ public class FabricaProductor {
          return new ComprobanteFactory();
          
       } else if(tipoFabrica.equalsIgnoreCase("ESQUEMA FABRICA")){
-         return new EsquemaFabrica();
+         return new EsquemaFactory();
       }
       
       return null;

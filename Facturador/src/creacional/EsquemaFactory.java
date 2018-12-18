@@ -4,13 +4,16 @@
  * and open the template in the editor.
  */
 
-package comportamentales;
+package creacional;
 
+import comportamentales.Esquema;
+import comportamentales.EsquemaOffline;
+import comportamentales.EsquemaOnline;
 import creacional.ComprobanteElectronico;
 import creacional.FabricaAbstracta;
 
 
-public class EsquemaFabrica implements FabricaAbstracta{
+public class EsquemaFactory implements FabricaAbstracta{
     @Override
     public ComprobanteElectronico getComprobante(String tipoComprobante){
          return null;
