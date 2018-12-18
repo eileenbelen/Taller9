@@ -8,7 +8,7 @@ package creacional;
 import comportamentales.Esquema;
 
 
-public class ComprobanteElectronicoFabrica implements FabricaAbstracta {
+public class ComprobanteFactory implements FabricaAbstracta {
     
     @Override
     public ComprobanteElectronico getComprobante(String tipoComprobante){

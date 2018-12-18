@@ -17,7 +17,7 @@ public class FabricaProductor {
          return null;
       }		
       if(tipoFabrica.equalsIgnoreCase("COMPROBANTE ELECTRONICO FABRICA")){
-         return new ComprobanteElectronicoFabrica();
+         return new ComprobanteFactory();
          
       } else if(tipoFabrica.equalsIgnoreCase("ESQUEMA FABRICA")){
          return new EsquemaFabrica();
