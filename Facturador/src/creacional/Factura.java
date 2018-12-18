@@ -9,10 +9,7 @@ import estructural.ComprobanteE;
 import java.time.LocalDate;
 import java.util.List;
 
-/**
- *
- * @author Palacios
- */
+
 public class Factura extends ComprobanteElectronico implements ComprobanteE{
     
     private List<String> productos;

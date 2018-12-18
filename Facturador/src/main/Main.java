@@ -13,10 +13,7 @@ import estructural.ComprobanteE;
 import estructural.Esquema;
 import estructural.LemaDecorador;
 
-/**
- *
- * @author Patricio
- */
+
 public class Main {
     
     

@@ -9,10 +9,7 @@ import estructural.ComprobanteE;
 import java.time.LocalDate;
 import java.util.List;
 
-/**
- *
- * @author Palacios
- */
+
 public class GuiaRemision extends ComprobanteElectronico implements ComprobanteE{
     private String destino;
     private String placaVehiculo;

@@ -7,10 +7,7 @@ package creacional;
 
 import estructural.Esquema;
 
-/**
- *
- * @author Patricio
- */
+
 public class ComprobanteElectronicoFabrica implements FabricaAbstracta {
     
     @Override

@@ -7,10 +7,7 @@ package estructural;
 
 import creacional.ComprobanteElectronico;
 
-/**
- *
- * @author Palacios
- */
+
 public class AutorizadorSRI {
     
     private final Esquema esquema_de_autorizacion;

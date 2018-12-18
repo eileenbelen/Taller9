@@ -4,10 +4,7 @@ import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- *
- * @author Palacios
- */
+
 public abstract class ComprobanteElectronico {
     
     protected List<String> detallesEmisor;

@@ -8,10 +8,7 @@ package creacional;
 
 import estructural.Esquema;
 
-/**
- * 
- * @author Luis A. Sarango-Parrales
- */
+
 public class EsquemaOffline implements Esquema{
 
     private String claveAcceso;

@@ -5,10 +5,7 @@
  */
 package estructural;
 
-/**
- *
- * @author Patricio
- */
+
 public abstract class ComprobanteDecorador implements ComprobanteE{
     
     protected ComprobanteE c;

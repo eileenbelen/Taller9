@@ -6,10 +6,7 @@
 
 package creacional;
 
-/**
- * 
- * @author Luis A. Sarango-Parrales
- */
+
 public class FabricaProductor {
     
     public static FabricaAbstracta getFabrica(String tipoFabrica){

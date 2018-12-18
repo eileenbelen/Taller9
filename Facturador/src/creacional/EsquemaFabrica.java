@@ -8,10 +8,7 @@ package creacional;
 
 import estructural.Esquema;
 
-/**
- * 
- * @author Luis A. Sarango-Parrales
- */
+
 public class EsquemaFabrica implements FabricaAbstracta{
     @Override
     public ComprobanteElectronico getComprobante(String tipoComprobante){

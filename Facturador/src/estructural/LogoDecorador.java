@@ -5,10 +5,7 @@
  */
 package estructural;
 
-/**
- *
- * @author Patricio
- */
+
 public class LogoDecorador extends ComprobanteDecorador{
     
     public LogoDecorador(ComprobanteE ce) {

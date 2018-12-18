@@ -5,10 +5,7 @@
  */
 package estructural;
 
-/**
- *
- * @author Patricio
- */
+
 public interface ComprobanteE {
     public void agregarLogo();
     public void agregarLema();

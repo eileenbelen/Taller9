@@ -8,10 +8,7 @@ package creacional;
 
 import estructural.Esquema;
 
-/**
- * 
- * @author Luis A. Sarango-Parrales
- */
+
 public class Cliente {
     private String cedulaRuc, nombre, telefono, domicilio;
     private Esquema esquema;

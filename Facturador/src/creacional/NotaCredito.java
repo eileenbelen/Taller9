@@ -7,10 +7,7 @@ package creacional;
 import estructural.ComprobanteE;
 import java.time.LocalDate;
 
-/**
- *
- * @author Palacios
- */
+
 public class NotaCredito extends ComprobanteElectronico implements ComprobanteE{
     private String detalleModificacion;
     private double valorAPagar;
